@@ -1,3 +1,3 @@
 # Projeto_GC
 
-Alicia Miranda, Carlos Victor 
+  Componentes: Alicia Miranda e Carlos Victor 
