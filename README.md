@@ -4,7 +4,7 @@
   #### Componentes: Alicia Miranda, Carlos Victor e Luis Rauber.
 
 #### Este projeto utiliza Git e GitHub para gerência de configuração e versionamento.
-Com essas ferramentas é possível:
+#### Com essas ferramentas é possível:
 
 - Controlar o histórico de alterações;
 
