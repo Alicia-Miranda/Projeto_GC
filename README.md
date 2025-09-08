@@ -1,6 +1,14 @@
 # Projeto_GC
 
-  #### Docente: Walter Jonas.
   #### Disciplina: Gerência de Configuração.
   #### Componentes: Alicia Miranda, Carlos Victor e Luis Rauber.
+
+#### Este projeto utiliza Git e GitHub para gerência de configuração e versionamento.
+Com essas ferramentas é possível:
+
+- Controlar o histórico de alterações;
+
+- Trabalhar em equipe com branches e pull requests;
+
+- Garantir organização, rastreabilidade e segurança no desenvolvimento.
   
