@@ -6,7 +6,7 @@ function App() {
     //arquivo principal
     <div className="App">  
         <header className="App-header">         
-        <h1>Trabalho de Gerência de Configuração</h1>
+        <h1>Trabalho de Gerência de Configuração - software</h1>
         <p>Nova Feature do nosso projeto</p>
         </header>
     </div>
