@@ -6,8 +6,8 @@ function App(){
         //Arquivo principal
         <div className="App">
             <header className="App-header">
-                <h1>Hello Worlddd!</h1>
-                <p></p>
+                <h1>Hello World!</h1>
+                <p>Nova Feature</p>
             </header>
         </div>
     );
