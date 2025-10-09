@@ -7,3 +7,4 @@
 - [ ] Documentação/descrição do PR clara
 
 **Observações:**
+Auditor: Luis Henrique Rauber
