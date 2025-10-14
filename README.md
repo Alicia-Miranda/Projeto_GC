@@ -11,3 +11,5 @@
 - Trabalhar em equipe com branches e pull requests;
 
 - Garantir organização, rastreabilidade e segurança no desenvolvimento.
+
+(teste de alteração na feature/auditar-pr-trabalho)
