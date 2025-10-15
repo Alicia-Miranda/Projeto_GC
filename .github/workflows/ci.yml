@@ -29,4 +29,4 @@ jobs:
         run: |
           echo "Validando sintaxe do adivinha.py..."
           # Tenta rodar o script com um input fake para garantir que ele não quebra ao iniciar
-          python adivinha.py < /dev/null
+          python test.py < /dev/null
