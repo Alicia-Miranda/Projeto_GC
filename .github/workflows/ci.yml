@@ -1,35 +1,32 @@
-name: CI ReactJS  # Nome do Pipeline
+name: CI Python Game
  
 on:
-  pull_request:  # Define o gatilho: Pull Request
+  pull_request:  # O gatilho é o mesmo: Pull Request
     branches:
       - main
       - release
       - development
-      - 'features/*'  # Aplica o CI a branches de feature
+      - 'features/*'
  
 jobs:
-  build-and-test:
+  validate-python-game:
     runs-on: ubuntu-latest
     steps:
-      # Baixa o código do repositório
+      # 1. Baixa o código
       - name: Checkout código
         uses: actions/checkout@v3
         
-      # Configura Node.js (versão usada pelo React)
-      - name: Configura Node.js
-        uses: actions/setup-node@v3
+      # 2. Configura o ambiente Python
+      - name: Configura Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '20' # Ajuste a versão conforme seu projeto
+          python-version: '3.10' # Versão estável do Python
           
-      # Instala dependências
-      - name: Instala dependências
-        run: npm install
-        
-      # Roda os testes (React já vem com Jest configurado por padrão)
-      - name: Executa testes
-        run: npm test -- --watchAll=false
-        
-      # Roda o build para verificar se o projeto compila sem erros
-      - name: Executa build
-        run: npm run build
+      # 3. Executa um 'Teste' simples (Validação Sintática)
+      # Nota: Como é um script simples, usaremos um comando direto
+      # para garantir que o arquivo existe e é executável.
+      - name: Executar Teste Simples do Script
+        run: |
+          echo "Validando sintaxe do adivinha.py..."
+          # Tenta rodar o script com um input fake para garantir que ele não quebra ao iniciar
+          python adivinha.py < /dev/null
