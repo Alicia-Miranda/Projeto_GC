@@ -1,7 +1,7 @@
 # Projeto_GC
 
   #### Disciplina: Gerência de Configuração.
-  #### Componentes: Alicia Miranda, Carlos Lima e Luis Rauber.
+  #### Componentes: Alicia de Souza Miranda, Carlos Victor de Araújo Lima e Luis Henrique Rauber.
 
 #### Este projeto utiliza Git e GitHub para gerência de configuração e versionamento.
 #### Com essas ferramentas, e boas práticas é possível:
