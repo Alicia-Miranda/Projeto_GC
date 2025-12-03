@@ -1,0 +1,32 @@
+name: CI Python Game
+ 
+on:
+  pull_request:  # O gatilho é o mesmo: Pull Request
+    branches:
+      - main
+      - release
+      - development
+      - 'features/*'
+ 
+jobs:
+  validate-python-game:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Baixa o código
+      - name: Checkout código
+        uses: actions/checkout@v3
+        
+      # 2. Configura o ambiente Python
+      - name: Configura Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # Versão estável do Python
+          
+      # 3. Executa um 'Teste' simples (Validação Sintática)
+      # Nota: Como é um script simples, usaremos um comando direto
+      # para garantir que o arquivo existe e é executável.
+      - name: Executar Teste Simples do Script
+        run: |
+          echo "Validando sintaxe do adivinha.py..."
+          # Tenta rodar o script com um input fake para garantir que ele não quebra ao iniciar
+          python test.py < /dev/null
