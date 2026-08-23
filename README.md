@@ -1,15 +1,54 @@
-# Projeto_GC
+# Projeto de Gerência de Configuração
 
-  #### Disciplina: Gerência de Configuração.
-  #### Componentes: Alicia de Souza Miranda, Carlos Victor de Araújo Lima e Luis Henrique Rauber.
+## 📌 Sobre o projeto
 
-#### Este projeto utiliza Git e GitHub para gerência de configuração e versionamento.
-#### Com essas ferramentas, e boas práticas é possível:
+Este projeto foi desenvolvido na disciplina de Gerência de Configuração com o objetivo de aplicar, na prática, conceitos de controle de versão, colaboração e gerenciamento das alterações realizadas durante o desenvolvimento de software.
 
-- Controlar o histórico de alterações;
+O projeto foi desenvolvido utilizando Git e GitHub, permitindo que a equipe trabalhasse de forma colaborativa e mantivesse o histórico das alterações realizadas.
 
-- Trabalhar em equipe com branches e pull requests;
+## 🎯 Objetivos
 
-- Garantir organização, rastreabilidade e segurança no desenvolvimento.
+- Aplicar conceitos de gerência de configuração;
+- Utilizar Git para controle de versão;
+- Utilizar GitHub para colaboração e gerenciamento do projeto;
+- Trabalhar com branches;
+- Utilizar Pull Requests;
+- Manter o histórico e a rastreabilidade das alterações;
+- Praticar organização do desenvolvimento em equipe.
 
-(teste de alteração na feature/auditar-pr-trabalho)
+## 🛠️ Tecnologias e ferramentas
+
+- Python
+- Git
+- GitHub
+- GitHub Actions
+- Vercel
+
+## 👥 Equipe
+
+- Alicia de Souza Miranda
+- Carlos Victor de Araújo Lima
+- Luis Henrique Rauber
+
+## 🔀 Estratégia de versionamento
+
+Durante o desenvolvimento, utilizamos branches para separar as alterações realizadas por cada integrante e evitar alterações diretamente na branch principal.
+
+As alterações eram posteriormente integradas ao projeto por meio de Pull Requests.
+
+### Fluxo de desenvolvimento
+
+```text
+Branch principal
+       ↓
+Criação de branch
+       ↓
+Desenvolvimento
+       ↓
+Commit
+       ↓
+Pull Request
+       ↓
+Revisão
+       ↓
+Merge
